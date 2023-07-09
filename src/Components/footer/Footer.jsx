@@ -3,9 +3,10 @@ import "./footer.css";
 function Footer() {
   return (
     <footer>
-      <a href="#">
-        <h2 className="footer-text footer-title">Baptiste Ribot</h2>
+      <a href="#" className="chevron-up-footer">
+        <i className="fa-solid fa-chevron-up fa-beat footer-icon"></i>
       </a>
+      <h2 className="footer-text footer-title">Baptiste Ribot</h2>
       <h3 className="footer-text footer-year">
         © 2023 - Tous droits réservés.
       </h3>

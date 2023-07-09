@@ -3,17 +3,21 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2.3em -0.47em -0.5em -0.47em;
+  margin: 6em -0.47em -0.5em -0.47em;
+}
+
+.chevron-up-footer {
+  margin-top: 1vw;
+  scroll-behavior: smooth;
 }
 
 .footer-text {
   font-size: 1.5vw;
-  margin-bottom: 0em;
 }
 
 .footer-title {
   text-transform: uppercase;
-  scroll-behavior: smooth;
+  margin-bottom: 0em;
 }
 
 .footer-year {
@@ -32,13 +36,12 @@ footer {
   font-size: 2vw;
 }
 
-.footer-icon:hover,
-.footer-title:hover {
+.footer-icon:hover {
   transition: all 0.8s;
   color: #fff6bb;
 }
 
-.a-footer,
-.footer-text {
+.footer-text,
+.footer-icon {
   color: #f5f0fe;
 }
