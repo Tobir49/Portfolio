@@ -1,0 +1,31 @@
+[{
+    "id": "1",
+    "title" : "BOOKI",
+    "description": "Intégration d’un contenu web statique à partir d’une maquette Figma. Responsive (Desktop -> Mobile)."
+  },
+    {
+      "id": "2",
+      "title" : "Sophie Bluel",
+      "description": "Création d’un code JavaScript (pas de frameworks) afin de rendre le site d’une architecte dynamique. Utilisation d’un token, création d’une fonction login, création d’une galerie de projet à partir d’une base de données. Gestion des routes grâce à Postman & Swagger."      
+    },
+    {
+      "id": "3",
+      "title" : "Debug & optimisation d’un site",
+      "description": "Avec l’aide des Devtools, il fallait rendre un site de photographe plus accessible, améliorer ses performances ainsi que SEO. L’utilisation de Javascript était nécessaire."     
+    },
+    {
+      "id": "4",
+      "title" : "KASA",
+      "description": "Création d’une application React à partir d’une maquette. Création d’un dossier ordonné et trié selon les composants et les pages. Logique de routage, ré-utilisation des composants (props, hooks) et css ordonné."    
+    },
+    {
+      "id": "5",
+      "title" : "Mon Vieux Grimoire",
+      "description": "Clonage d’un code Front-End afin d’en créer le Back dans le but de rendre un site de notation de livres dynamique. Utilisation d’une base données MongoDB (Atlas), création d’un serveur Node et d’une API Express."  
+    },
+    {
+      "id": "6",
+      "title" : "Création du portfolio",
+      "description": "Création de mon portfolio." 
+    }
+  ]
