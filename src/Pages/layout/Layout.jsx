@@ -1,4 +1,4 @@
-import Nav from "../Components/nav/Nav";
+import Nav from "../../Components/nav/Nav";
 
 function Layout() {
   return <Nav />;
