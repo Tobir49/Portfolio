@@ -33,5 +33,8 @@
   color: #262626;
   background-color: #fff6bb;
   padding: 10px;
+  font-size: 3vw;
+  transition: all 0.4s;
   border-radius: 10vw;
+  opacity: 0.9;
 }

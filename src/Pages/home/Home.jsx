@@ -1,7 +1,7 @@
 import "./home.css";
 
 function Home() {
-  return <p className="test">test</p>;
+  return <p className="test">home</p>;
 }
 
 export default Home;

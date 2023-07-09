@@ -3,6 +3,11 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/layout/Layout";
 import Home from "./Pages/home/Home";
+import Projects from "./Pages/projects/Projects";
+import Contact from "./Pages/contact/Contact";
+import Skills from "./Pages/skills/Skills";
+import Error from "./Pages/error/Error";
+
 import "./App.css";
 
 export default function App() {
@@ -11,7 +16,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="home" element={<Home />} />
-          {/* <Route path="*" element={<Error />} /> */}
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>
