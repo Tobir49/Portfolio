@@ -8,5 +8,9 @@
 } */
 
 * {
+  list-style-type: none;
+}
+
+body {
   background-color: #f5f0fe;
 }
