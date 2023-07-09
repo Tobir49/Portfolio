@@ -1,14 +1,24 @@
-//ICI METTRE LE ROUTER
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Pages/Layout";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <img src="../images/picture.png" alt="Baptiste Ribot" />
-      <div></div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          {/* <Route path="home" element={<Home />} /> */}
+          {/* <Route path="*" element={<Error />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
