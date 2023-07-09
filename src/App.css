@@ -15,3 +15,7 @@ body {
   background-color: #f5f0fe;
   font-family: "Montserrat", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}

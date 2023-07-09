@@ -3,8 +3,12 @@ import "./footer.css";
 function Footer() {
   return (
     <footer>
-      <h2 className="footer-text footer-title">Baptiste Ribot</h2>
-      <h3 className="footer-text footer-year">2023</h3>
+      <a href="#">
+        <h2 className="footer-text footer-title">Baptiste Ribot</h2>
+      </a>
+      <h3 className="footer-text footer-year">
+        © 2023 - Tous droits réservés.
+      </h3>
       <div>
         <ul className="ul-footer">
           <li className="li-footer">
