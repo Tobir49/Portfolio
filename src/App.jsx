@@ -2,8 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/home/Home";
-import Error from "./Pages/error/Error";
-
+// import Error from "./Pages/error/Error";
 import "./App.css";
 
 export default function App() {
@@ -11,9 +10,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
-          {/* <Route path="/" element={<Layout />}> */}
-          {/* <Route path="home" element={<Home />} /> */}
-          <Route path="*" element={<Error />} />
+          {/* <Route path="*" element={<Error />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>

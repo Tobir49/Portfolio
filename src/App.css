@@ -24,11 +24,15 @@ a {
   color: #090e21;
 }
 
-/*Weight*/
+/*Text*/
 .basic {
   font-weight: 400;
 }
 
 .bold {
   font-weight: 500;
+}
+
+.center {
+  text-align: justify;
 }

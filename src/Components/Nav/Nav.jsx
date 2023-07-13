@@ -6,7 +6,7 @@ function Nav() {
       <div>
         <ul className="ul-nav">
           <li>
-            <a href="#projects" className="li-nav yellow">
+            <a href="#me" className="li-nav yellow">
               me
             </a>
           </li>
@@ -16,19 +16,19 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a href="#projects" className="li-nav yellow">
+            <a href="#skills" className="li-nav yellow">
               skills
             </a>
           </li>
           <li>
-            <a href="#projects" className="li-nav yellow">
+            <a href="#contact" className="li-nav yellow">
               contact
             </a>
           </li>
         </ul>
       </div>
       <div>
-        <a href="#CV" className="yellow">
+        <a href="#" className="yellow">
           CV
         </a>
       </div>

@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #f5f0fe;
+  /* margin-top: 10vw; */
+}
+
+.text-main {
+  margin-right: 3em;
+}
+
+.hobbies,
+.biopic {
+  margin-bottom: 5em;
+}

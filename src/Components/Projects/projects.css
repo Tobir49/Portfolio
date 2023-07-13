@@ -1,0 +1,40 @@
+.projects {
+  border-top: 1px solid #fef0f5;
+}
+
+.sort-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select {
+  border: 1px solid #fef0f5;
+  background-color: #090e21;
+  color: #fef0f5;
+  padding: 0.5em 1em 0.5em 1em;
+  width: 30%;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all, 0.5s;
+}
+
+select:hover {
+  border: 1px solid #fff6bb;
+  border-radius: 10px;
+}
+
+.div-project {
+  display: flex;
+  justify-content: center;
+}
+
+.pictures-projects {
+  width: 180px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.text-project {
+  width: 50%;
+}

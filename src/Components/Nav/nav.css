@@ -14,3 +14,9 @@ nav {
 .li-nav {
   margin-left: 1vw;
 }
+
+.li-nav:hover {
+  color: #fef0f5;
+  font-weight: 500;
+  transition: all 0.6s;
+}
