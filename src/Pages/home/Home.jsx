@@ -1,7 +1,14 @@
 import "./home.css";
+import Header from "../../Components/Header/Header";
+import Nav from "../../Components/Nav/Nav";
 
 function Home() {
-  return <p className="test">home</p>;
+  return (
+    <div>
+      <Nav />
+      <Header />
+    </div>
+  );
 }
 
 export default Home;

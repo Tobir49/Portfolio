@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #f5f0fe;
+}
+
+.li-nav,
+.p-nav {
+  color: #fff6bb;
+}
+
+.ul-nav {
+  display: flex;
+}
+
+.li-nav {
+  margin-left: 1vw;
+}

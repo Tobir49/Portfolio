@@ -12,8 +12,13 @@
 }
 
 body {
-  background-color: #f5f0fe;
+  background-color: #090e21;
   font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2 {
+  color: #f5f0fe;
 }
 
 a {
