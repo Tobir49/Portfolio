@@ -12,13 +12,11 @@ h1 {
 }
 
 .h2-header {
-  font-weight: 400;
   margin: 2em 0em 3em 0em;
 }
 
 .a-header {
   font-size: 1.5vw;
-  color: #fff6bb;
   background-color: #090e21;
   border: 1px solid #fff6bb;
   padding: 1vw 5vw 1vw 5vw;
