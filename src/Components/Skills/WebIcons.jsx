@@ -13,7 +13,7 @@ import VscodeIcon from "../../../images/icons/web/vscode.png";
 
 function WebIcons() {
   return (
-    <div>
+    <div className="div-icons-web">
       <img src={CssIcon} alt="icône CSS" className="icons-skills" />
       <img src={HtmlIcon} alt="icône HTML" className="icons-skills" />
       <img

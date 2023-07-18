@@ -10,7 +10,7 @@ import WordIcon from "../../../images/icons/others/word.png";
 
 function OtherIcons() {
   return (
-    <div>
+    <div className="div-icons-others">
       <img src={DavinciIcon} alt="icône Davinci" className="icons-skills" />
       <img src={FilmoraIcon} alt="icône Filmora" className="icons-skills" />
       <img src={GimpIcon} alt="icône Gimp" className="icons-skills" />

@@ -1,8 +1,29 @@
+/*Div*/
+.div-web,
+.div-others,
+.div-soft-skills {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+
+.div-icons-others,
+.div-icons-web {
+  width: 50%;
+}
+
+.div-icons-soft-skills {
+  display: flex;
+}
+
 /*Icônes*/
 .icons-skills {
   width: 55px;
   height: 55px;
   margin-right: 1em;
+  border: 1px solid #fef0f5;
+  border-radius: 100%;
+  padding: 10px;
   filter: saturate(0%);
 }
 
@@ -12,20 +33,31 @@
 
 .express-icon,
 .terminal-icon {
-  filter: invert(100%);
+  filter: hue-rotate(90deg) invert(20%);
 }
 
 .express-icon:hover,
 .terminal-icon:hover {
-  filter: hue-rotate(90deg) invert(20%);
+  filter: invert(40%);
 }
 
 /*Soft-skills*/
-.soft-skills {
+.div-one-soft-skill {
+  margin-left: 3em;
   display: flex;
-  margin-top: 2em;
+  flex-direction: column;
 }
 
-.div-one-soft-skill {
-  margin-left: 2em;
+.icon-soft-skill {
+  font-size: 37px;
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  border: 1px solid #fef0f5;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.text-soft-skill {
+  margin-top: 0px;
 }
