@@ -1,3 +1,8 @@
+#skills {
+  border-top: 1px solid #fef0f5;
+  margin-top: 2em;
+}
+
 /*Div*/
 .div-web,
 .div-others,
@@ -20,15 +25,17 @@
 .icons-skills {
   width: 55px;
   height: 55px;
-  margin-right: 1em;
+  margin: 0em 1em 1em 0em;
   border: 1px solid #fef0f5;
   border-radius: 100%;
   padding: 10px;
   filter: saturate(0%);
+  transition: all, 0.2s;
 }
 
 .icons-skills:hover {
   filter: saturate(100%);
+  border-radius: 40%;
 }
 
 .express-icon,

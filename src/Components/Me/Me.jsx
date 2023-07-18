@@ -10,15 +10,29 @@ function Me() {
           <h2 className="yellow">BIO</h2>
           <p className="white center">
             Jeune <span className="yellow bold">développeur</span> de 19 ans,
-            ayant découvert ce domaine fin 2022.
+            ayant découvert ce domaine fin 2022, à la suite d'une
+            <span className="yellow bold"> reconversion </span>
+            professionnelle.
           </p>
           <p className="white center">
-            Ayant suivi une formation de
+            J'ai suivi une formation de
             <span className="yellow bold"> Développeur Web </span>
             sur <span className="yellow bold">Openclassrooms</span> de décembre
-            2022 à août 2023, j’ai acquis de nombreuses compétences (langages et
-            frameworks) et su utiliser certains outils, comme Figma, GitHub ou
-            bien Postman.
+            2022 à août 2023, et acquis de nombreuses compétences dans le
+            domaine du web (langages ou frameworks). De plus j'ai appris à
+            utiliser certains outils, comme Figma, GitHub ou bien Postman.
+          </p>
+          <p className="white center">
+            Si vous souhaitez en savoir plus sur moi je vous invite à découvrir
+            les{" "}
+            <a href="#projects" className="yellow a-bio">
+              projets
+            </a>{" "}
+            que j'ai menés, ou bien à me{" "}
+            <a href="#contact" className="yellow a-bio">
+              contacter
+            </a>{" "}
+            !
           </p>
         </div>
         <div className="hobbies">

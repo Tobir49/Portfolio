@@ -1,7 +1,9 @@
-.projects {
+/*Div principale*/
+#projects {
   border-top: 1px solid #fef0f5;
 }
 
+/*Sélection*/
 .sort-by {
   display: flex;
   flex-direction: column;
@@ -24,17 +26,20 @@ select:hover {
   border-radius: 10px;
 }
 
+/*Div d'un projet*/
 .div-project {
   display: flex;
   justify-content: center;
 }
 
+/*Images*/
 .pictures-projects {
   width: 180px;
   height: 380px;
   object-fit: cover;
 }
 
+/*Texte*/
 .text-project {
   width: 50%;
 }
