@@ -11,23 +11,31 @@ import Terminal from "../../../images/icons/web/terminal.png";
 import ReactIcon from "../../../images/icons/web/react.png";
 import VscodeIcon from "../../../images/icons/web/vscode.png";
 
-function Icons() {
+function WebIcons() {
   return (
     <div>
       <img src={CssIcon} alt="icône CSS" className="icons-skills" />
       <img src={HtmlIcon} alt="icône HTML" className="icons-skills" />
-      <img src={ExpressIcon} alt="icône Express js" className="icons-skills" />
+      <img
+        src={ExpressIcon}
+        alt="icône Express js"
+        className="icons-skills express-icon"
+      />
       <img src={FigmaIcon} alt="icône Figma" className="icons-skills" />
       <img src={JsIcon} alt="icône JavaScript" className="icons-skills" />
       <img src={MongoIcon} alt="icône MongoDB" className="icons-skills" />
       <img src={NodeIcon} alt="icône Node js" className="icons-skills" />
       <img src={PostmanIcon} alt="icône Postman" className="icons-skills" />
       <img src={SwaggerIcon} alt="icône Swagger" className="icons-skills" />
-      <img src={Terminal} alt="icône Terminal" className="icons-skills" />
+      <img
+        src={Terminal}
+        alt="icône Terminal"
+        className="icons-skills terminal-icon"
+      />
       <img src={ReactIcon} alt="icône React" className="icons-skills" />
       <img src={VscodeIcon} alt="icône VS Code" className="icons-skills" />
     </div>
   );
 }
 
-export default Icons;
+export default WebIcons;

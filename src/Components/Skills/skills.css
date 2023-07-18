@@ -1,5 +1,31 @@
+/*Icônes*/
 .icons-skills {
   width: 55px;
   height: 55px;
   margin-right: 1em;
+  filter: saturate(0%);
+}
+
+.icons-skills:hover {
+  filter: saturate(100%);
+}
+
+.express-icon,
+.terminal-icon {
+  filter: invert(100%);
+}
+
+.express-icon:hover,
+.terminal-icon:hover {
+  filter: hue-rotate(90deg) invert(20%);
+}
+
+/*Soft-skills*/
+.soft-skills {
+  display: flex;
+  margin-top: 2em;
+}
+
+.div-one-soft-skill {
+  margin-left: 2em;
 }
