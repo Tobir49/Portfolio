@@ -3,9 +3,6 @@ import "./footer.css";
 function Footer() {
   return (
     <footer>
-      <a href="#contact" className="yellow a-header a-footer">
-        contact
-      </a>
       <div className="copyright">
         <p className="white">©2023 - Tous droits réservés</p>
         <div>

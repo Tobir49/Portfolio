@@ -9,15 +9,14 @@ import projectSix from "../../../images/P7.png";
 function Projects() {
   return (
     <article id="projects">
-      <div className="sort-by">
-        <h2 className="yellow bold">Sort by</h2>
-        <label htmlFor="sorts"></label>
-        <select name="types" id="sorts">
-          <option value="">All projects</option>
-          <option value="websites">Websites</option>
-          <option value="debug-optimisation">Debug / Optimisation</option>
-          <option value="agility">Agility</option>
-        </select>
+      <div className="filter-by">
+        <h2 className="yellow bold">Filter by</h2>
+        <div className="div-filter-buttons">
+          <button className="button-filter yellow">All</button>
+          <button className="button-filter yellow">Websites</button>
+          <button className="button-filter yellow">Agility</button>
+          <button className="button-filter yellow">Debug / Optimisation</button>
+        </div>
       </div>
 
       <div>
