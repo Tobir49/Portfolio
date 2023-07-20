@@ -21,11 +21,21 @@ function Projects() {
 
       <div>
         <div className="div-project">
-          <img
-            src={projectOne}
-            alt="projet 1 HTML et CSS"
-            className="pictures-projects"
-          />
+          <div>
+            {/* <div>
+              <ul>
+                <li className="blue test">test1</li>
+              </ul>
+              <p className="white">test2</p>
+            </div> */}
+
+            <img
+              src={projectOne}
+              alt="projet 1 HTML et CSS"
+              className="pictures-projects"
+            />
+          </div>
+
           <div>
             <p className="white">⏰ 01-2023</p>
             <p className="white">🪪 BOOKI</p>
