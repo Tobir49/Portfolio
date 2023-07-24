@@ -6,6 +6,12 @@ import projectFour from "../../../images/P5.png";
 import projectFive from "../../../images/P6.png";
 import projectSix from "../../../images/P7.png";
 
+function test(id) {
+  const image = document.getElementById(id);
+  // image.style.filter = "grayscale(100%)";
+  console.log(image);
+}
+
 function Projects() {
   return (
     <article id="projects">
@@ -21,7 +27,11 @@ function Projects() {
 
       <div className="all-projects">
         <div className="one-project">
-          <div className="techno-project">
+          <div
+            className="techno-project"
+            onMouseEnter={test("1")}
+            // onMouseLeave=""
+          >
             <i className="fa-brands fa-html5 blue"></i>
             <i className="fa-brands fa-css3-alt blue"></i>
             <a
@@ -35,6 +45,7 @@ function Projects() {
             src={projectOne}
             alt="Projet HTML et CSS"
             className="img-project"
+            id="1"
           />
           <div className="text-project white">
             <p className="white">⏰ 01-2023</p>

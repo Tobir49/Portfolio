@@ -6,19 +6,19 @@ function Skills() {
   return (
     <article id="skills">
       <div className="div-web">
-        <h2 className="white basic">Web :</h2>
+        <h2 className="yellow basic">Web :</h2>
         <WebIcons />
       </div>
       <br />
       <div className="div-others">
-        <h2 className="white basic">Others :</h2>
+        <h2 className="yellow basic">Others :</h2>
         <OtherIcons />
       </div>
 
       <br />
 
       <div className="div-soft-skills">
-        <h2 className="white basic">Soft Skills :</h2>
+        <h2 className="yellow basic">Soft Skills :</h2>
 
         <div className="div-icons-soft-skills">
           <ul>
