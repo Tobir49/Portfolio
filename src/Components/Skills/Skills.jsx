@@ -11,7 +11,7 @@ function Skills() {
       </div>
       <br />
       <div className="div-others">
-        <h2 className="yellow basic">Others :</h2>
+        <h2 className="yellow basic">Autres :</h2>
         <OtherIcons />
       </div>
 

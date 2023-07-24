@@ -69,9 +69,9 @@
   object-fit: cover;
 }
 
-.one-project .img-project:hover {
-  /* filter: blur(1em); */
-}
+/* .one-project .img-project:hover {
+  /* filter: blur(1em); 
+}*/
 
 /*Texte*/
 .text-project {

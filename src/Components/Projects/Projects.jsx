@@ -16,11 +16,11 @@ function Projects() {
   return (
     <article id="projects">
       <div className="filter-by">
-        <h2 className="yellow bold">Filter by</h2>
+        <h2 className="yellow bold">Filtrer par</h2>
         <div className="div-filter-buttons">
-          <button className="button-filter yellow">All</button>
-          <button className="button-filter yellow">Websites</button>
-          <button className="button-filter yellow">Agility</button>
+          <button className="button-filter yellow">Tous</button>
+          <button className="button-filter yellow">Sites web</button>
+          <button className="button-filter yellow">Agilité</button>
           <button className="button-filter yellow">Debug / Optimisation</button>
         </div>
       </div>
