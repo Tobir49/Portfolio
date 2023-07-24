@@ -12,7 +12,7 @@ function Projects() {
   return (
     <article id="projects">
       <div className="filter-by">
-        <h2 className="yellow bold">Filtrer par</h2>
+        <h2 className="white bold title-filter">Filtrer par</h2>
         <div className="div-filter-buttons">
           <button className="button-filter yellow">Tous</button>
           <button className="button-filter yellow">Sites web</button>

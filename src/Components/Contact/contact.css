@@ -8,15 +8,16 @@
   margin-top: 1em;
   margin-bottom: 1em;
   padding-left: 10vw;
-}
-
-.contact-location {
+  height: 15em;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contact-icon {
-  font-size: 2em;
+  font-size: 1.2em;
+  align-self: center;
 }
 
 .contact-text,

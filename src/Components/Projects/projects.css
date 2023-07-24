@@ -4,6 +4,11 @@
 }
 
 /*Filter*/
+.title-filter {
+  border-bottom: 1px solid #fff6bb;
+  padding-bottom: 5px;
+}
+
 .filter-by {
   display: flex;
   flex-direction: column;

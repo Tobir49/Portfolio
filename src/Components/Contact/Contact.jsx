@@ -5,10 +5,7 @@ function Contact() {
     <article id="contact" className="contact">
       <div className="div-one-contact">
         <i className="fa-solid fa-location-dot yellow contact-icon"></i>
-        <div className="contact-location">
-          <p className="white contact-text">1, rue Pierre Nion.</p>
-          <p className="white contact-text">Trélazé 49800</p>
-        </div>
+        <p className="white contact-text">1, rue Pierre Nion. Trélazé 49800</p>
       </div>
 
       <div className="div-one-contact">
