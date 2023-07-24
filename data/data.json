@@ -1,12 +1,14 @@
 [{
     "id": "1",
     "title" : "BOOKI",
-    "description": "Intégration d’un contenu web statique à partir d’une maquette Figma. Responsive (Desktop -> Mobile)."
+    "description": "Intégration d’un contenu web statique à partir d’une maquette Figma. Le site devait être responsive sur Ordinateur, Tablette et Mobile. Première utilisation de GitHub sur ce projet, ainsi que de GitHub Pages pour héberger l'intégration.",
+    "issue": "L'utilisation de Flexbox ainsi que l'optimisation des images ont été les éléments les plus durs à gérer lors de ce projet (puisque débutant). Pour mieux comprendre ces problèmes, je me suis renseigné sur Internet, j'ai suivi des vidéos et j'ai testé plusieurs choses afin de voir ce qui correspondait le plus à la maquette."
   },
     {
       "id": "2",
       "title" : "Sophie Bluel",
-      "description": "Création d’un code JavaScript (pas de frameworks) afin de rendre le site d’une architecte dynamique. Utilisation d’un token, création d’une fonction login, création d’une galerie de projet à partir d’une base de données. Gestion des routes grâce à Postman & Swagger."      
+      "description": "Création d’un code JavaScript (pas de frameworks) afin de rendre le site d’une architecte dynamique. Utilisation d’un token, création d’une fonction login, création d’une galerie de projet à partir d’une base de données. Gestion des routes grâce à Postman & Swagger.",
+      "issue": "N'ayant jamais utilisé JavaScript, son utilisation n'était pas simple ni évidente au début du projet. C'est pourquoi la compréhension de fetch et les fonctions pour trier et afficher les modales sont ce qui m'a pris le plus de temps à réaliser lors de ce projet. Pour m'aider, avec un autre étudiant, nous avons commencé à nous entraider. Cela permettait de développer l'esprit d'équipe, et aussi l'expression orale, lorsqu'il s'agissait de présenter tel ou tel solution."
     },
     {
       "id": "3",
