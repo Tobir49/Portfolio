@@ -19,36 +19,34 @@ function Skills() {
 
       <div className="div-soft-skills">
         <h2 className="white basic">Soft Skills :</h2>
+
         <div className="div-icons-soft-skills">
-          <div className="div-one-soft-skill">
-            <i className="fa-solid fa-people-line white icon-soft-skill"></i>
-            <p className="white text-soft-skill">Esprit d'équipe</p>
-          </div>
-
-          <div className="div-one-soft-skill">
-            <i className="fa-solid fa-hands-holding-child white icon-soft-skill"></i>
-            <p className="white text-soft-skill">Autonome</p>
-          </div>
-
-          <div className="div-one-soft-skill">
-            <i className="fa-solid fa-people-group white icon-soft-skill"></i>
-            <p className="white text-soft-skill">Gestion d'équipe</p>
-          </div>
-
-          <div className="div-one-soft-skill">
-            <i className="fa-solid fa-handshake-simple white icon-soft-skill"></i>
-            <p className="white text-soft-skill">Communication</p>
-          </div>
-
-          <div className="div-one-soft-skill">
-            <i className="fa-solid fa-shuffle white icon-soft-skill"></i>
-            <p className="white text-soft-skill">Flexibilité</p>
-          </div>
-
-          <div className="div-one-soft-skill">
-            <i className="fa-solid fa-people-arrows white icon-soft-skill"></i>
-            <p className="white text-soft-skill">Sociabilité</p>
-          </div>
+          <ul>
+            <li className="white">
+              <i className="fa-solid fa-people-line white icon-soft-skill"></i>
+              Esprit d'équipe
+            </li>
+            <li className="white">
+              <i className="fa-solid fa-hands-holding-child white icon-soft-skill"></i>
+              Autonome
+            </li>
+            <li className="white">
+              <i className="fa-solid fa-people-group white icon-soft-skill"></i>
+              Gestion d'équipe
+            </li>
+            <li className="white">
+              <i className="fa-solid fa-handshake-simple white icon-soft-skill"></i>
+              Communication
+            </li>
+            <li className="white">
+              <i className="fa-solid fa-shuffle white icon-soft-skill"></i>
+              Flexibilité
+            </li>
+            <li className="white">
+              <i className="fa-solid fa-people-arrows white icon-soft-skill"></i>
+              Sociabilité
+            </li>
+          </ul>
         </div>
       </div>
     </article>

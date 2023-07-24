@@ -19,6 +19,8 @@
 
 .div-icons-soft-skills {
   display: flex;
+  flex-wrap: wrap;
+  width: 50%;
 }
 
 /*Icônes*/
@@ -29,41 +31,15 @@
   border: 1px solid #fef0f5;
   border-radius: 100%;
   padding: 10px;
-  filter: saturate(0%);
-}
-
-.icons-skills:hover {
-  filter: saturate(100%);
-  border-radius: 40%;
 }
 
 .express-icon,
 .terminal-icon {
-  filter: hue-rotate(90deg) invert(20%);
-}
-
-.express-icon:hover,
-.terminal-icon:hover {
   filter: invert(40%);
 }
 
 /*Soft-skills*/
-.div-one-soft-skill {
-  margin-left: 3em;
-  display: flex;
-  flex-direction: column;
-}
-
 .icon-soft-skill {
-  font-size: 37px;
-  width: 40px;
-  height: 40px;
-  align-self: center;
-  border: 1px solid #fef0f5;
-  border-radius: 100%;
+  font-size: 40px;
   padding: 10px;
-}
-
-.text-soft-skill {
-  margin-top: 0px;
 }
