@@ -22,8 +22,8 @@ function Projects() {
       <div className="all-projects">
         <div className="one-project">
           <div className="techno-project">
-            <p className="white">techno 1</p>
-            <p className="white">techno 2</p>
+            <p className="blue">techno 1</p>
+            <p className="blue">techno 2</p>
           </div>
           <img
             src={projectOne}
