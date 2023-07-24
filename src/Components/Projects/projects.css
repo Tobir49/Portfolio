@@ -36,6 +36,7 @@
 .one-project {
   display: flex;
   justify-content: center;
+  margin-bottom: 5em;
 }
 
 /*Images*/
@@ -62,7 +63,7 @@
 
 .one-project .img-project {
   margin-left: -40%;
-  margin-right: 20%;
+  margin-right: 10%;
   width: 20%;
   height: 100%;
   object-fit: cover;
@@ -70,5 +71,6 @@
 
 /*Texte*/
 .text-project {
-  margin-left: 20%;
+  margin-left: 10%;
+  width: 40%;
 }
