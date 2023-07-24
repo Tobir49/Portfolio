@@ -9,12 +9,11 @@
   border-top: 1px solid #fef0f5;
 }
 
-i {
-  font-size: 25px;
-  margin: 0.5em;
+.footer-icon {
+  font-size: 18px;
 }
 
-i:hover {
+.footer-icon:hover {
   color: #fff6bb;
   transition: all, 0.4s;
 }
