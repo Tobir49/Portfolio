@@ -33,19 +33,45 @@
 }
 
 /*Div d'un projet*/
-.div-project {
+.one-project {
   display: flex;
   justify-content: center;
 }
 
 /*Images*/
-.pictures-projects {
+.one-project .techno-project {
+  width: 20%;
+  height: 500px;
+  position: relative;
+  opacity: 0;
+  transition: all, 0.4s;
+  /* left: 3em; */
+}
+
+.techno-project:hover {
+  background-color: rgba(100, 100, 100, 0.3);
+  opacity: 1;
+}
+
+.one-project {
+  width: 90%;
+  height: 500px;
+  position: relative;
+}
+
+.one-project .img-project {
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: -20%;
+}
+/* .pictures-projects {
   width: 180px;
   height: 380px;
   object-fit: cover;
-}
+} */
 
 /*Texte*/
-.text-project {
+/* .text-project {
   width: 50%;
-}
+} */
