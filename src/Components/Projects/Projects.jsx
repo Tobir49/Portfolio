@@ -63,15 +63,8 @@ function Projects() {
         id="3"
         date="04-2023"
         title="Gestion du développement d'un site"
-        textOne="Afin de gérer le bon développement d’un site, j’ai dû créer le
-        document des spécifications techniques, gérer les étapes de chaque
-        sprint, créer des users stories en prenant en compte les
-        technologies à utiliser avant de présenter cela au chef de projet
-        du client."
-        textTwo="Ce projet m'a permis de développer des compétences importantes en
-        tant que développeur : l'agilité, entre autres. Néanmoins créer
-        des users stories n'est pas simple lorsque l'on débute dans
-        l'agilité et ses façons de faire."
+        textOne={data.description}
+        textTwo={data.issue}
       />
 
       <OneProject
@@ -85,14 +78,8 @@ function Projects() {
         id="4"
         date="04/05-2023"
         title="Debug et Optimisation d'un site"
-        textOne="Avec l’aide des Chrome Devtools, il fallait rendre un site de
-        photographe plus accessible, améliorer ses performances ainsi que
-        SEO. L’utilisation de Javascript, des balises meta et de
-        manipulation d'extension d'images était nécessaire."
-        textTwo="Durant ce projet, la seule problématique que j'ai rencontrée était
-        le fait de débugger une fonction. L'objectif était de corriger
-        l'erreur dans une fonction JavaScript, qui empêchait de passer
-        d'une image à l'autre sur la modale."
+        textOne={data.description}
+        textTwo={data.issue}
       />
 
       <OneProject
@@ -107,14 +94,8 @@ function Projects() {
         id="5"
         date="05-2023"
         title="Debug et Optimisation d'un site"
-        textOne="Un site d'hébergements souhaitait refaire le code de leur site
-        en utilisant React. Mon objectif était de, à partir d'une
-        maquette, créer une application React. L'utilisation de Create
-        React App et React Router était obligatoire, tout comme le fait de
-        n'utiliser que ces deux technologies."
-        textTwo="Certaines fonctions utilisant les hooks et les props m'ont posé
-        problème durant la création de cette application. En effet, j'ai
-        mis du temps à comprendre leur utilisation et leur fonctionnement."
+        textOne={data.description}
+        textTwo={data.issue}
       />
 
       <OneProject
@@ -129,15 +110,8 @@ function Projects() {
         id="6"
         date="06/07-2023"
         title="Création du Back-End et d'une base de données"
-        textOne="Un site de notation de livres souhaitait ajouter du Back-End à
-        leur site. La 1e étape consistait à cloner le code Front-End avant
-        d'y intégrer mon application Back. Pour créer ce que souhaitait le
-        clien j'ai créé des APIs, créé une base de données Atlas (MongoDB) et écrit des fonctions pour envoyer des livres dans la base de
-        données."
-        textTwo="N'ayant jamais fait de Back ni utilisé Nodejs et Expressjs, j'ai
-        mis du temps à comprendre le fonctionnement de ces frameworks
-        ainsi que la manipulation des requêtes et leur lien avec la base
-        de données."
+        textOne={data.description}
+        textTwo={data.issue}
       />
     </article>
   );

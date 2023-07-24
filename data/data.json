@@ -13,21 +13,25 @@
     {
       "id": "3",
       "title" : "Debug & optimisation d’un site",
-      "description": "Avec l’aide des Devtools, il fallait rendre un site de photographe plus accessible, améliorer ses performances ainsi que SEO. L’utilisation de Javascript était nécessaire."     
+      "description": "Afin de gérer le bon développement d’un site, j’ai dû créer le document des spécifications techniques, gérer les étapes de chaque sprint, créer des users stories en prenant en compte les technologies à utiliser avant de présenter cela au chef de projet du client.",
+      "issue": "Ce projet m'a permis de développer des compétences importantes en tant que développeur : l'agilité, entre autres. Une petite difficulté que j'ai rencontrée lors de mon apprentissage était la création de users stories. Toutefois, en pratiquant, cette difficulté a vite disparu."
     },
     {
       "id": "4",
-      "title" : "KASA",
-      "description": "Création d’une application React à partir d’une maquette. Création d’un dossier ordonné et trié selon les composants et les pages. Logique de routage, ré-utilisation des composants (props, hooks) et css ordonné."    
+      "title" : "Debug & optimisation d’un site",
+      "description": "Avec l’aide des Chrome Devtools, il fallait rendre un site de photographe plus accessible, améliorer ses performances ainsi que SEO. L’utilisation de Javascript, des balises meta et de manipulation d'extension d'images était nécessaire.",
+      "issue":"Durant ce projet, la seule problématique que j'ai rencontrée était le fait de débugger une fonction. L'objectif était de corriger l'erreur dans une fonction JavaScript, qui empêchait de passer d'une image à l'autre sur la modale. Néanmoins, en fouillant le code, et en m'aidant de mes anciens projets, j'ai vite su régler cette problématique."
     },
     {
       "id": "5",
-      "title" : "Mon Vieux Grimoire",
-      "description": "Clonage d’un code Front-End afin d’en créer le Back dans le but de rendre un site de notation de livres dynamique. Utilisation d’une base données MongoDB (Atlas), création d’un serveur Node et d’une API Express."  
+      "title" : "KASA",
+      "description": "Un site d'hébergements souhaitait refaire le code de leur site en utilisant React. Mon objectif était de, à partir d'une maquette, créer une application React. L'utilisation de Create React App et React Router était obligatoire, tout comme le fait de n'utiliser que ces deux technologies.",
+      "issue":"Certaines fonctions utilisant les hooks et les props m'ont posé problème durant la création de cette application. En effet, j'ai mis du temps à comprendre leur utilisation et leur fonctionnement."
     },
     {
       "id": "6",
-      "title" : "Création du portfolio",
-      "description": "Création de mon portfolio." 
+      "title" : "Mon Vieux Grimoire",
+      "description": "Un site de notation de livres souhaitait ajouter du Back-End à leur site. La 1e étape consistait à cloner le code Front-End avant d'y intégrer mon application Back. Pour créer ce que souhaitait le client, j'ai créé des APIs, créé une base de données Atlas (MongoDB) et écrit des fonctions pour envoyer des livres dans la base de données.",
+      "issue":"N'ayant jamais fait de Back ni utilisé Nodejs et Expressjs, j'ai mis du temps à comprendre le fonctionnement de ces frameworks ainsi que la manipulation des requêtes et leur lien avec la base de données."
     }
   ]
