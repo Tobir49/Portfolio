@@ -22,8 +22,14 @@ function Projects() {
       <div className="all-projects">
         <div className="one-project">
           <div className="techno-project">
-            <p className="blue">techno 1</p>
-            <p className="blue">techno 2</p>
+            <i className="fa-brands fa-html5 blue"></i>
+            <i className="fa-brands fa-css3-alt blue"></i>
+            <a
+              href="https://github.com/Tobir49/OpenClassrooms_Site_HTML_CSS"
+              target="blank"
+            >
+              <i className="fa-brands fa-github blue"></i>
+            </a>
           </div>
           <img
             src={projectOne}
@@ -51,12 +57,16 @@ function Projects() {
       <div className="all-projects">
         <div className="one-project">
           <div className="techno-project">
-            <p className="blue">techno 1</p>
-            <p className="blue">techno 2</p>
+            <i className="fa-brands fa-square-js blue"></i>
+            <i className="fa-brands fa-html5 blue"></i>
+            <i className="fa-brands fa-css3-alt blue"></i>
+            <a href="https://github.com/Tobir49/Projet3" target="blank">
+              <i className="fa-brands fa-github blue"></i>
+            </a>
           </div>
           <img
             src={projectTwo}
-            alt="Projet HTML et CSS"
+            alt="Projet JavaScript"
             className="img-project"
           />
           <div className="text-project white">
@@ -75,7 +85,7 @@ function Projects() {
               compréhension de fetch et les fonctions pour trier et afficher les
               modales sont ce qui m'a pris le plus de temps à réaliser lors de
               ce projet.
-            </p>{" "}
+            </p>
           </div>
         </div>
       </div>
@@ -83,12 +93,13 @@ function Projects() {
       <div className="all-projects">
         <div className="one-project">
           <div className="techno-project">
-            <p className="blue">techno 1</p>
-            <p className="blue">techno 2</p>
+            <p className="blue">Agilité</p>
+            <p className="blue">Gestion de projet</p>
+            <p className="blue">User Stories</p>
           </div>
           <img
             src={projectThree}
-            alt="Projet HTML et CSS"
+            alt="Gestion de projet, agilité"
             className="img-project"
           />
           <div className="text-project white">
@@ -106,7 +117,7 @@ function Projects() {
               tant que développeur : l'agilité, entre autres. Néanmoins créer
               des users stories n'est pas simple lorsque l'on débute dans
               l'agilité et ses façons de faire.
-            </p>{" "}
+            </p>
           </div>
         </div>
       </div>
@@ -114,12 +125,18 @@ function Projects() {
       <div className="all-projects">
         <div className="one-project">
           <div className="techno-project">
-            <p className="blue">techno 1</p>
-            <p className="blue">techno 2</p>
+            <i className="fa-brands fa-square-js blue"></i>
+            <i className="fa-brands fa-html5 blue"></i>
+            <a
+              href="https://github.com/Tobir49/Projet_5_Openclassrooms"
+              target="blank"
+            >
+              <i className="fa-brands fa-github blue"></i>
+            </a>
           </div>
           <img
             src={projectFour}
-            alt="Projet HTML et CSS"
+            alt="Projet débug et optimisation"
             className="img-project"
           />
           <div className="text-project white">
@@ -136,7 +153,7 @@ function Projects() {
               le fait de débugger une fonction. L'objectif était de corriger
               l'erreur dans une fonction JavaScript, qui empêchait de passer
               d'une image à l'autre sur la modale.
-            </p>{" "}
+            </p>
           </div>
         </div>
       </div>
@@ -144,17 +161,17 @@ function Projects() {
       <div className="all-projects">
         <div className="one-project">
           <div className="techno-project">
-            <p className="blue">techno 1</p>
-            <p className="blue">techno 2</p>
+            <i className="fa-brands fa-react blue"></i>
+            <i className="fa-brands fa-square-js blue"></i>
+            <i className="fa-brands fa-css3-alt blue"></i>
+            <a href="https://github.com/Tobir49/Projet_6_Kasa" target="blank">
+              <i className="fa-brands fa-github blue"></i>
+            </a>
           </div>
-          <img
-            src={projectFive}
-            alt="Projet HTML et CSS"
-            className="img-project"
-          />
+          <img src={projectFive} alt="Projet react" className="img-project" />
           <div className="text-project white">
             <p className="white">⏰ 05-2023</p>
-            <p className="white">🪪 BOOKI</p>
+            <p className="white">🪪 KASA</p>
             <p className="white center">
               💻 Un site d'hébergements souhaitait refaire le code de leur site
               en utilisant React. Mon objectif était de, à partir d'une
@@ -166,7 +183,7 @@ function Projects() {
               Certaines fonctions utilisant les hooks et les props m'ont posé
               problème durant la création de cette application. En effet, j'ai
               mis du temps à comprendre leur utilisation et leur fonctionnement.
-            </p>{" "}
+            </p>
           </div>
         </div>
       </div>
@@ -174,14 +191,17 @@ function Projects() {
       <div className="all-projects">
         <div className="one-project">
           <div className="techno-project">
-            <p className="blue">techno 1</p>
-            <p className="blue">techno 2</p>
+            <i className="fa-brands fa-square-js blue"></i>
+            <i className="fa-brands fa-node-js blue"></i>
+            <i className="fa-solid fa-database blue"></i>
+            <a
+              href="https://github.com/Tobir49/P7_Mon_Vieux_Grimoire"
+              target="blank"
+            >
+              <i className="fa-brands fa-github blue"></i>
+            </a>
           </div>
-          <img
-            src={projectSix}
-            alt="Projet HTML et CSS"
-            className="img-project"
-          />
+          <img src={projectSix} alt="Projet Back-End" className="img-project" />
           <div className="text-project white">
             <p className="white">⏰ 06/07-2023</p>
             <p className="white">🪪 Back-End d'un site</p>
@@ -206,7 +226,7 @@ function Projects() {
               mis du temps à comprendre le fonctionnement de ces frameworks
               ainsi que la manipulation des requêtes et leur lien avec la base
               de données.
-            </p>{" "}
+            </p>
           </div>
         </div>
       </div>
