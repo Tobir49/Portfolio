@@ -5,8 +5,7 @@
 
 /*Div*/
 .div-web,
-.div-others,
-.div-soft-skills {
+.div-others {
   display: flex;
   justify-content: space-around;
   margin-top: 3em;
@@ -14,12 +13,6 @@
 
 .div-icons-others,
 .div-icons-web {
-  width: 50%;
-}
-
-.div-icons-soft-skills {
-  display: flex;
-  flex-wrap: wrap;
   width: 50%;
 }
 
@@ -36,10 +29,4 @@
 .express-icon,
 .terminal-icon {
   filter: invert(40%);
-}
-
-/*Soft-skills*/
-.icon-soft-skill {
-  font-size: 40px;
-  padding: 10px;
 }

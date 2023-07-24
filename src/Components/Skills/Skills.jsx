@@ -14,41 +14,6 @@ function Skills() {
         <h2 className="yellow basic">Autres :</h2>
         <OtherIcons />
       </div>
-
-      <br />
-
-      <div className="div-soft-skills">
-        <h2 className="yellow basic">Soft Skills :</h2>
-
-        <div className="div-icons-soft-skills">
-          <ul>
-            <li className="white">
-              <i className="fa-solid fa-people-line white icon-soft-skill"></i>
-              Esprit d'équipe
-            </li>
-            <li className="white">
-              <i className="fa-solid fa-hands-holding-child white icon-soft-skill"></i>
-              Autonome
-            </li>
-            <li className="white">
-              <i className="fa-solid fa-people-group white icon-soft-skill"></i>
-              Gestion d'équipe
-            </li>
-            <li className="white">
-              <i className="fa-solid fa-handshake-simple white icon-soft-skill"></i>
-              Communication
-            </li>
-            <li className="white">
-              <i className="fa-solid fa-shuffle white icon-soft-skill"></i>
-              Flexibilité
-            </li>
-            <li className="white">
-              <i className="fa-solid fa-people-arrows white icon-soft-skill"></i>
-              Sociabilité
-            </li>
-          </ul>
-        </div>
-      </div>
     </article>
   );
 }
