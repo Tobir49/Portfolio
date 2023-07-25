@@ -46,6 +46,9 @@
 
 /*Images*/
 .one-project .techno-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 20%;
   width: 20%;
   height: 500px;
@@ -74,8 +77,22 @@
   object-fit: cover;
 }
 
+.text-skills-project {
+  margin-right: 4em;
+}
+
+.li-skills-project {
+  width: 10em;
+  margin-bottom: 1em;
+}
+
+.icon-project {
+  font-size: 35px;
+}
+
 /* .one-project .img-project:hover {
-  /* filter: blur(1em);
+  filter: blur(1em);
+  border-radius: 1em;
 } */
 
 /*Texte*/

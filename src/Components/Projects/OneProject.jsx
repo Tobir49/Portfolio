@@ -13,22 +13,22 @@ function OneProject(props) {
           onMouseEnter={test("1")}
           // onMouseLeave=""
         >
-          <i className={`${props.technoIconOne} blue`}></i>
-          <i className={`${props.technoIconTwo} blue`}></i>
-          <i className={`${props.technoIconThree} blue`}></i>
+          <i className={`${props.technoIconOne} blue icon-project`}></i>
+          <i className={`${props.technoIconTwo} blue icon-project`}></i>
+          <i className={`${props.technoIconThree} blue icon-project`}></i>
 
           {props.isList ? (
-            <ul>
-              <li>{props.liOne}</li>
-              <li>{props.liTwo}</li>
-              <li>{props.liThree}</li>
+            <ul className="text-skills-project">
+              <li className="bold li-skills-project">{props.liOne}</li>
+              <li className="bold li-skills-project">{props.liTwo}</li>
+              <li className="bold li-skills-project">{props.liThree}</li>
             </ul>
           ) : (
             " "
           )}
 
           <a href={props.href} target="blank">
-            <i className={`${props.gitHubIcon} blue`}></i>
+            <i className={`${props.gitHubIcon} blue icon-project`}></i>
           </a>
         </div>
         <img

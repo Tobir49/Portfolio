@@ -101,7 +101,7 @@ function Projects() {
       <OneProject
         // onMouseEnter={test("6")}
         technoIconOne="fa-brands fa-node-js"
-        technoIconTwo="fa-brands fa-node-js"
+        technoIconTwo="fa-brands fa-square-js"
         technoIconThree="fa-solid fa-database"
         href="https://github.com/Tobir49/P7_Mon_Vieux_Grimoire"
         gitHubIcon="fa-brands fa-github"

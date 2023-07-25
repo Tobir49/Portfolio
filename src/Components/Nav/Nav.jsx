@@ -3,7 +3,7 @@ import "./nav.css";
 function Nav() {
   return (
     <nav>
-      <div>
+      <div className="div-nav">
         <ul className="ul-nav">
           <li>
             <a href="#me" className="li-nav yellow">
@@ -26,11 +26,12 @@ function Nav() {
             </a>
           </li>
         </ul>
-      </div>
-      <div>
-        <a href="#" className="yellow">
-          CV
-        </a>
+        <div className="div-cv">
+          <a href="#" className="cv-text">
+            CV
+            <i className="fa-solid fa-download icon-cv"></i>
+          </a>
+        </div>
       </div>
     </nav>
   );
