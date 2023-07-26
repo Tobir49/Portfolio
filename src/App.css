@@ -41,3 +41,7 @@ i {
 .center {
   text-align: justify;
 }
+
+.border {
+  border-bottom: 1px solid #090e21;
+}

@@ -1,6 +1,7 @@
 /*Div principale*/
 #projects {
-  border-top: 1px solid #fef0f5;
+  background: linear-gradient(to bottom, #090e21, #090e21 95%, #f5f0fe 100%);
+  padding-bottom: 3em;
 }
 
 /*Filter*/
@@ -41,7 +42,7 @@
 .one-project {
   display: flex;
   justify-content: center;
-  margin-bottom: 5em;
+  margin-top: 5em;
 }
 
 /*Images*/

@@ -1,9 +1,9 @@
 header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 600px;
-  margin-top: 3vw;
+  height: 700px;
 }
 
 h1 {
