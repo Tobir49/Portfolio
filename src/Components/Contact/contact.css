@@ -1,10 +1,15 @@
+#contact {
+  z-index: 0;
+  background-color: #090e21;
+}
+
 .div-one-contact {
   display: flex;
   margin-top: 1em;
 }
 
 .contact {
-  margin-top: 1em;
+  padding-top: 1em;
   margin-bottom: 1em;
   padding-left: 10vw;
   height: 15em;
@@ -22,12 +27,3 @@
 .contact-a {
   font-size: 1em;
 }
-
-/* .contact-a {
-  border-bottom: 0px;
-}
-
-.contact-a:hover {
-  border-bottom: 1px solid #fef0f5;
-  transition: all, 1s;
-} */

@@ -27,7 +27,11 @@ function Nav() {
           </li>
         </ul>
         <div className="div-cv">
-          <a href="#" className="cv-text">
+          <a
+            href="src/_CV.pdf"
+            download="CV_RIBOT_Baptiste.pdf"
+            className="cv-text"
+          >
             CV
             <i className="fa-solid fa-download icon-cv"></i>
           </a>

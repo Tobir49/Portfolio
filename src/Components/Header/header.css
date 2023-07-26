@@ -4,6 +4,10 @@ header {
   justify-content: center;
   align-items: center;
   height: 700px;
+  position: fixed;
+  top: 0;
+  left: 37%;
+  z-index: -1;
 }
 
 h1 {

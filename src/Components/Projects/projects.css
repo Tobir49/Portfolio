@@ -1,20 +1,21 @@
 /*Div principale*/
 #projects {
   background: linear-gradient(to bottom, #090e21, #090e21 95%, #f5f0fe 100%);
-  padding-bottom: 3em;
+  padding-bottom: 5em;
+  z-index: 0;
 }
 
 /*Filter*/
 .title-filter {
   border-bottom: 1px solid #fff6bb;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 
 .filter-by {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3em 0em 5em 0em;
+  padding-top: 4em;
 }
 
 .div-filter-buttons {

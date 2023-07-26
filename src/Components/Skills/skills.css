@@ -1,5 +1,6 @@
 #skills {
   background: linear-gradient(to bottom, #f5f0fe, #f5f0fe 70%, #090e21 100%);
+  z-index: 0;
 }
 
 /*Div*/
@@ -24,6 +25,7 @@
   border: 1px solid #090e21;
   border-radius: 100%;
   padding: 10px;
+  box-shadow: 2px 2px 2px #090e21;
 }
 
 .express-icon,

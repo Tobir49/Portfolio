@@ -3,6 +3,8 @@ main {
   align-items: center;
   background: linear-gradient(to bottom, #f5f0fe, #f5f0fe 70%, #090e21 100%);
   padding-bottom: 6em;
+  margin-top: 700px;
+  z-index: 0;
 }
 
 .text-main {
