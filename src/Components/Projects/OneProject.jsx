@@ -7,9 +7,9 @@ function test(id) {
 function OneProject(props) {
   return (
     <div className="all-projects">
-      <div className="one-project">
+      <div className="one-project justify">
         <div
-          className="techno-project align-items"
+          className="techno-project align-items justify"
           onMouseEnter={test("1")}
           // onMouseLeave=""
         >

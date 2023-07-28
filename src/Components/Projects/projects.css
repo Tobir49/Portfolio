@@ -39,14 +39,12 @@
 /*Div d'un projet*/
 .one-project {
   display: flex;
-  justify-content: center;
   margin-top: 5em;
 }
 
 /*Images*/
 .one-project .techno-project {
   display: flex;
-  justify-content: center;
   margin-right: 20%;
   width: 20%;
   height: 500px;
