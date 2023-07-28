@@ -3,7 +3,7 @@ import "./me.css";
 
 function Me() {
   return (
-    <main id="me">
+    <main id="me" className="z-index">
       <img src={picture} alt="image Ribot Baptiste" />
       <div className="text-main">
         <div className="biopic">

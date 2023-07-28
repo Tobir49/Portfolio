@@ -2,7 +2,7 @@ import "./contact.css";
 
 function Contact() {
   return (
-    <article id="contact" className="contact">
+    <article id="contact" className="contact z-index">
       <div className="div-one-contact">
         <i className="fa-solid fa-location-dot yellow contact-icon"></i>
         <p className="white contact-text">1, rue Pierre Nion. Trélazé 49800</p>

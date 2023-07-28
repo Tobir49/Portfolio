@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+.z-index {
+  z-index: 1;
+}
+
 /*Couleurs*/
 .white {
   color: #f5f0fe;

@@ -1,5 +1,4 @@
 #contact {
-  z-index: 0;
   background-color: #090e21;
 }
 
@@ -10,7 +9,7 @@
 
 .contact {
   padding-top: 1em;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
   padding-left: 10vw;
   height: 15em;
   display: flex;

@@ -4,7 +4,7 @@ import OtherIcons from "./OtherIcons";
 
 function Skills() {
   return (
-    <article id="skills">
+    <article id="skills" className="z-index">
       <div className="div-web">
         <h2 className="blue bold">Web :</h2>
         <WebIcons />

@@ -8,15 +8,19 @@ header {
   top: 0;
   left: 37%;
   z-index: -1;
+  /* width: 100%;
+  background-image: url("../../../images/IMG_3376.webp"); */
 }
 
 h1 {
   font-size: 3em;
   font-family: "Oswald", sans-serif;
+  padding-left: 0.1em;
 }
 
 .h2-header {
   margin: 2em 0em 3em 0em;
+  padding-left: 0.5em;
 }
 
 .a-header {
