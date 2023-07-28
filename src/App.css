@@ -15,6 +15,10 @@ a {
   z-index: 1;
 }
 
+.column {
+  flex-direction: column;
+}
+
 /*Couleurs*/
 .white {
   color: #f5f0fe;

@@ -13,7 +13,6 @@
   padding-left: 10vw;
   height: 15em;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }

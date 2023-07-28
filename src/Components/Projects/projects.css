@@ -12,7 +12,6 @@
 
 .filter-by {
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding-top: 4em;
 }
@@ -56,7 +55,6 @@
   position: relative;
   opacity: 0;
   transition: all, 0.4s;
-  /* left: 3em; */
 }
 
 .techno-project:hover {
@@ -90,11 +88,6 @@
 .icon-project {
   font-size: 35px;
 }
-
-/* .one-project .img-project:hover {
-  filter: blur(1em);
-  border-radius: 1em;
-} */
 
 /*Texte*/
 .text-project {
