@@ -3,7 +3,7 @@ import "./footer.css";
 function Footer() {
   return (
     <footer className="z-index">
-      <div className="copyright">
+      <div className="copyright align-items">
         <p className="white">©2023 - Tous droits réservés</p>
         <div>
           <a

@@ -9,7 +9,6 @@ footer {
 .copyright {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   border-top: 1px solid #fef0f5;
 }
 

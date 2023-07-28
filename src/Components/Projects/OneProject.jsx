@@ -9,7 +9,7 @@ function OneProject(props) {
     <div className="all-projects">
       <div className="one-project">
         <div
-          className="techno-project"
+          className="techno-project align-items"
           onMouseEnter={test("1")}
           // onMouseLeave=""
         >

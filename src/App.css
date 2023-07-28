@@ -15,6 +15,10 @@ a {
   z-index: 1;
 }
 
+.align-items {
+  align-items: center;
+}
+
 .column {
   flex-direction: column;
 }

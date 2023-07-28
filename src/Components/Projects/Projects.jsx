@@ -11,7 +11,7 @@ import projectSix from "../../../images/P7.png";
 function Projects() {
   return (
     <article id="projects" className="z-index">
-      <div className="filter-by column">
+      <div className="filter-by column align-items">
         <h2 className="white bold title-filter">Filtrer par</h2>
         <div className="div-filter-buttons">
           <button className="button-filter yellow">Tous</button>

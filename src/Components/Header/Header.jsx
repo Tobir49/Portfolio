@@ -2,7 +2,7 @@ import "./header.css";
 
 function Header() {
   return (
-    <header className="column">
+    <header className="column align-items">
       <div>
         <h1 className="white">RIBOT Baptiste</h1>
         <h2 className="h2-header white basic">💻 Développeur Web 💻</h2>
