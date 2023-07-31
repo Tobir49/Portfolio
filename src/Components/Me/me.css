@@ -13,3 +13,35 @@ main {
 .biopic {
   margin-bottom: 5em;
 }
+
+@media screen and (min-width: 660px) and (max-width: 1010px) {
+  main {
+    margin-top: 650px;
+    padding-bottom: 7em;
+  }
+
+  .picture-me {
+    width: 300px;
+    height: 300px;
+    margin: 3em 1em 0em 1em;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  main {
+    margin-top: 250px;
+    flex-direction: column;
+  }
+
+  .picture-me {
+    width: 50vw;
+    height: 50vw;
+    margin: 3em 1em 0em 1em;
+    align-self: center;
+  }
+
+  .text-main {
+    margin: 0em 1em 0em 1em;
+  }
+}

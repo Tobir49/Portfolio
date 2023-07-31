@@ -4,7 +4,7 @@ import "./me.css";
 function Me() {
   return (
     <main id="me" className="z-index align-items">
-      <img src={picture} alt="image Ribot Baptiste" />
+      <img src={picture} alt="image Ribot Baptiste" className="picture-me" />
       <div className="text-main">
         <div className="biopic">
           <h2 className="blue border">BIO</h2>
