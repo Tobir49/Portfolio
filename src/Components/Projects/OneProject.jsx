@@ -3,15 +3,27 @@ function OneProject(props) {
     <div className="all-projects">
       <div className="one-project justify">
         <div className="techno-project align-items justify">
+          {props.technos.length > 0
+            ? props.technos.map((techno, index) => (
+                <i key={index} className={`${techno} blue icon-project`}></i>
+              ))
+            : " "}
+          {/* 
           <i className={`${props.technoIconOne} blue icon-project`}></i>
           <i className={`${props.technoIconTwo} blue icon-project`}></i>
-          <i className={`${props.technoIconThree} blue icon-project`}></i>
+          <i className={`${props.technoIconThree} blue icon-project`}></i> */}
 
-          {props.isList ? (
+          {props.skills.length > 0 ? (
             <ul className="text-skills-project">
+              {props.skills.map((skill, index) => (
+                <li key={index} className="bold li-skills-project">
+                  {skill}
+                </li>
+              ))}
+              {/* 
               <li className="bold li-skills-project">{props.liOne}</li>
               <li className="bold li-skills-project">{props.liTwo}</li>
-              <li className="bold li-skills-project">{props.liThree}</li>
+              <li className="bold li-skills-project">{props.liThree}</li> */}
             </ul>
           ) : (
             " "
