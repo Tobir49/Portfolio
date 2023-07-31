@@ -1,49 +1,66 @@
 [{
     "id": "1",
     "title" : "BOOKI",
-    "tags":"all websites",
     "technos": [
 			"fa-brands fa-html5",
       "fa-brands fa-css3-alt"
 		],
     "skills": [],
     "imagePath":"../../../images/P2.png",
+    "alt":"Projet HTML et CSS",
+    "gitHubIcon":"fa-brands fa-github",
+    "href":"https://github.com/Tobir49/OpenClassrooms_Site_HTML_CSS",
+    "date":"01-2023",
     "description": "Intégration d’un contenu web statique à partir d’une maquette Figma. Le site devait être responsive sur Ordinateur, Tablette et Mobile. Première utilisation de GitHub sur ce projet, ainsi que de GitHub Pages pour héberger l'intégration.",
     "issue": "L'utilisation de Flexbox ainsi que l'optimisation des images ont été les éléments les plus durs à gérer lors de ce projet (puisque débutant). Pour mieux comprendre ces problèmes, je me suis renseigné sur Internet, j'ai suivi des vidéos et j'ai testé plusieurs choses afin de voir ce qui correspondait le plus à la maquette."
   },
     {
       "id": "2",
       "technos": [
+        "fa-brands fa-square-js",
         "fa-brands fa-html5",
         "fa-brands fa-css3-alt"
       ],
-      "tags":"all agility",
       "skills": [],
+      "imagePath":"../../../images/P3.png",
+      "alt":"Projet JavaScript",
       "title" : "Sophie Bluel",
+      "gitHubIcon":"fa-brands fa-github",
+      "href":"https://github.com/Tobir49/Projet3",
+      "date":"02/03-2023",
       "description": "Création d’un code JavaScript (pas de frameworks) afin de rendre le site d’une architecte dynamique. Utilisation d’un token, création d’une fonction login, création d’une galerie de projet à partir d’une base de données. Gestion des routes grâce à Postman & Swagger.",
       "issue": "N'ayant jamais utilisé JavaScript, son utilisation n'était pas simple ni évidente au début du projet. C'est pourquoi la compréhension de fetch et les fonctions pour trier et afficher les modales sont ce qui m'a pris le plus de temps à réaliser lors de ce projet. Pour m'aider, avec un autre étudiant, nous avons commencé à nous entraider. Cela permettait de développer l'esprit d'équipe, et aussi l'expression orale, lorsqu'il s'agissait de présenter tel ou tel solution."
     },
     {
       "id": "3",
-      "technos": [
-        "fa-brands fa-html5",
-        "fa-brands fa-css3-alt"
+      "technos": [],
+      "skills": [
+        "Agilité",
+        "Gestion de projet",
+        "User Stories"
       ],
-      "tags":"all websites",
-      "skills": [],
-      "title" : "Debug & optimisation d’un site",
+      "imagePath":"../../../images/P4.png",
+      "alt":"Gestion de projet",
+      "title" : "Gestion du développement d'un site",
+      "gitHubIcon":" ",
+      "href":" ",
+      "date":"04-2023",
       "description": "Afin de gérer le bon développement d’un site, j’ai dû créer le document des spécifications techniques, gérer les étapes de chaque sprint, créer des users stories en prenant en compte les technologies à utiliser avant de présenter cela au chef de projet du client.",
       "issue": "Ce projet m'a permis de développer des compétences importantes en tant que développeur : l'agilité, entre autres. Une petite difficulté que j'ai rencontrée lors de mon apprentissage était la création de users stories. Toutefois, en pratiquant, cette difficulté a vite disparu."
     },
     {
       "id": "4",
       "technos": [
-        "fa-brands fa-html5",
-        "fa-brands fa-css3-alt"
+        "fa-brands fa-square-js",
+        "fa-brands fa-html5"
       ],
-      "tags":"all websites",
       "skills": [],
+      "imagePath":"../../../images/P5.png",
+      "alt":"Projet débug et optimisation",
       "title" : "Debug & optimisation d’un site",
+      "gitHubIcon":"fa-brands fa-github",
+      "href":"https://github.com/Tobir49/Projet_5_Openclassrooms",
+      "date":"04/05-2023",
       "description": "Avec l’aide des Chrome Devtools, il fallait rendre un site de photographe plus accessible, améliorer ses performances ainsi que SEO. L’utilisation de Javascript, des balises meta et de manipulation d'extension d'images était nécessaire.",
       "issue":"Durant ce projet, la seule problématique que j'ai rencontrée était le fait de débugger une fonction. L'objectif était de corriger l'erreur dans une fonction JavaScript, qui empêchait de passer d'une image à l'autre sur la modale. Néanmoins, en fouillant le code, et en m'aidant de mes anciens projets, j'ai vite su régler cette problématique."
     },
@@ -51,11 +68,16 @@
       "id": "5",
       "title" : "KASA",
       "technos": [
-        "fa-brands fa-html5",
+        "fa-brands fa-react",
+        "fa-brands fa-square-js",
         "fa-brands fa-css3-alt"
       ],
-      "tags":"all websites",
       "skills": [],
+      "imagePath":"../../../images/P6.png",
+      "alt":"Projet React",
+      "gitHubIcon":"fa-brands fa-github",
+      "href":"https://github.com/Tobir49/Projet_6_Kasa",
+      "date":"05-2023",
       "description": "Un site d'hébergements souhaitait refaire le code de leur site en utilisant React. Mon objectif était de, à partir d'une maquette, créer une application React. L'utilisation de Create React App et React Router était obligatoire, tout comme le fait de n'utiliser que ces deux technologies.",
       "issue":"Certaines fonctions utilisant les hooks et les props m'ont posé problème durant la création de cette application. En effet, j'ai mis du temps à comprendre leur utilisation et leur fonctionnement."
     },
@@ -67,8 +89,12 @@
         "fa-brands fa-square-js",
         "fa-solid fa-database"
       ],
-      "tags":"all websites",
       "skills": [],
+      "imagePath":"../../../images/P7.png",
+      "alt":"Projet Back-End",
+      "gitHubIcon":"fa-brands fa-github",
+      "href":"https://github.com/Tobir49/P7_Mon_Vieux_Grimoire",
+      "date":"06/07-2023",
       "description": "Un site de notation de livres souhaitait ajouter du Back-End à leur site. La 1e étape consistait à cloner le code Front-End avant d'y intégrer mon application Back. Pour créer ce que souhaitait le client, j'ai créé des APIs, créé une base de données Atlas (MongoDB) et écrit des fonctions pour envoyer des livres dans la base de données.",
       "issue":"N'ayant jamais fait de Back ni utilisé Nodejs et Expressjs, j'ai mis du temps à comprendre le fonctionnement de ces frameworks ainsi que la manipulation des requêtes et leur lien avec la base de données."
     }
