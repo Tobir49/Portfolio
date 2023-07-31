@@ -31,3 +31,42 @@
 .terminal-icon {
   filter: invert(40%);
 }
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  .title-skills {
+    font-size: 20px;
+  }
+
+  .div-icons-others,
+  .div-icons-web {
+    width: 70%;
+  }
+
+  .icons-skills {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .div-web,
+  .div-others {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-skills {
+    font-size: 17px;
+  }
+
+  .div-icons-others,
+  .div-icons-web {
+    width: 90%;
+    margin-left: 10vw;
+  }
+
+  .icons-skills {
+    width: 28px;
+    height: 28px;
+  }
+}
