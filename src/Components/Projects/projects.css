@@ -96,9 +96,44 @@
   .button-filter {
     font-size: 2vw;
   }
+
+  /*Projets*/
+  .one-project {
+    width: 90%;
+    margin-top: 3em;
+  }
+
+  /*Images*/
+  .one-project .techno-project {
+    margin-right: 20%;
+    margin-left: 4em;
+    width: 30%;
+    height: 500px;
+  }
+
+  .one-project .img-project {
+    margin-left: -50%;
+    width: 30%;
+  }
+
+  .li-skills-project {
+    font-size: 15px;
+  }
+
+  .icon-project {
+    font-size: 25px;
+  }
+
+  /*Texte*/
+  .text-project {
+    margin-left: 0em;
+    width: 50%;
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 660px) {
+  /*Filter*/
   .div-filter-buttons {
     flex-wrap: wrap;
     justify-content: center;
@@ -108,5 +143,41 @@
   .button-filter {
     font-size: 3vw;
     margin-bottom: 1em;
+  }
+
+  /*Projets*/
+  .one-project {
+    width: 95%;
+    margin-top: 2em;
+  }
+
+  /*Images*/
+  .one-project .techno-project {
+    margin-right: 20%;
+    margin-left: 1.5em;
+    width: 30%;
+    height: 300px;
+  }
+
+  .one-project .img-project {
+    margin-left: -50%;
+    width: 30%;
+    height: 300px;
+  }
+
+  .li-skills-project {
+    font-size: 2vw;
+    margin-left: 1em;
+  }
+
+  .icon-project {
+    font-size: 12px;
+  }
+
+  /*Texte*/
+  .text-project {
+    margin-left: 0em;
+    width: 70%;
+    font-size: 12px;
   }
 }

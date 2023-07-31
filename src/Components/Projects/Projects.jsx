@@ -32,7 +32,7 @@ function Projects() {
         id="1"
         date="01-2023"
         title="BOOKI"
-        textOne={data.description}
+        textOne="Dictum sit amet justo donec enim. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. A arcu cursus vitae congue. Sagittis purus sit amet volutpat consequat mauris nunc. Mauris augue neque gravida in fermentum et sollicitudin. Semper feugiat nibh sed pulvinar proin. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Dolor sit amet consectetur adipiscing. Ut venenatis tellus in metus vulputate eu scelerisque felis. Tincidunt nunc pulvinar sapien et."
         textTwo={data.issue}
       />
 
