@@ -1,18 +1,8 @@
-function test(id) {
-  const image = document.getElementById(id);
-  // image.style.filter = "grayscale(100%)";
-  console.log(image);
-}
-
 function OneProject(props) {
   return (
     <div className="all-projects">
       <div className="one-project justify">
-        <div
-          className="techno-project align-items justify"
-          onMouseEnter={test("1")}
-          // onMouseLeave=""
-        >
+        <div className="techno-project align-items justify">
           <i className={`${props.technoIconOne} blue icon-project`}></i>
           <i className={`${props.technoIconTwo} blue icon-project`}></i>
           <i className={`${props.technoIconThree} blue icon-project`}></i>
@@ -28,7 +18,9 @@ function OneProject(props) {
           )}
 
           <a href={props.href} target="blank">
-            <i className={`${props.gitHubIcon} blue icon-project`}></i>
+            <i
+              className={`${props.gitHubIcon} blue icon-project icon-github`}
+            ></i>
           </a>
         </div>
         <img
