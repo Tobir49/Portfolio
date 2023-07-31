@@ -90,3 +90,19 @@
   margin-left: 10%;
   width: 40%;
 }
+
+@media screen and (max-width: 660px) {
+  .div-filter-buttons {
+    flex-wrap: wrap;
+    width: 80%;
+  }
+
+  .button-filter {
+    font-size: 17px;
+  }
+
+  .button-filter:hover {
+    color: #090e21;
+    background-color: #fff6bb;
+  }
+}

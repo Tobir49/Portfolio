@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="z-index">
       <div className="copyright align-items">
-        <p className="white">©2023 - Tous droits réservés</p>
+        <p className="white footer-text">©2023 - Tous droits réservés</p>
         <div>
           <a
             href="https://www.figma.com/file/dYB14VWhEs610tAqB1686H/Maquette?type=design&node-id=201%3A6&mode=design&t=uhyhNG300AWhVltA-1"

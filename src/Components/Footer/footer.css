@@ -20,3 +20,19 @@ footer {
   color: #fff6bb;
   transition: all, 0.4s;
 }
+
+@media screen and (max-width: 450px) {
+  .copyright {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5em;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
+
+  .footer-icon {
+    font-size: 16px;
+  }
+}

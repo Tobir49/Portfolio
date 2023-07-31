@@ -67,7 +67,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (min-width: 410px) and (max-width: 660px) {
   .div-nav {
     margin-left: -1em;
   }
@@ -91,5 +91,33 @@ nav {
 
   .icon-cv {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .div-nav {
+    margin-left: -1.5em;
+  }
+
+  .div-cv {
+    border-radius: 20px;
+    padding: 2px 3px 0px 10px;
+  }
+
+  .li-nav {
+    font-size: 12px;
+  }
+
+  .div-cv {
+    padding: 1px 3px 1px 7px;
+    align-self: center;
+  }
+
+  .cv-text {
+    font-size: 12px;
+  }
+
+  .icon-cv {
+    font-size: 12px;
   }
 }

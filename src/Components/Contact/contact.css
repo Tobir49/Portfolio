@@ -24,3 +24,20 @@
 .contact-a {
   font-size: 1em;
 }
+
+@media screen and (max-width: 660px) {
+  .contact {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+
+  .contact-icon {
+    align-self: center;
+  }
+
+  .contact-text,
+  .contact-a {
+    font-size: 18px;
+  }
+}
