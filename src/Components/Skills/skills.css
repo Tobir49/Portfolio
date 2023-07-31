@@ -1,5 +1,6 @@
 #skills {
-  background: linear-gradient(to bottom, #f5f0fe, #f5f0fe 70%, #090e21 100%);
+  background-color: #090e21;
+  border-top: 1px solid #f5f0fe;
 }
 
 /*Div*/
@@ -21,15 +22,14 @@
   width: 55px;
   height: 55px;
   margin: 0em 1em 1em 0em;
-  border: 1px solid #090e21;
+  border: 1px solid #f5f0fe;
   border-radius: 100%;
   padding: 10px;
-  box-shadow: 2px 2px 2px #090e21;
 }
 
 .express-icon,
 .terminal-icon {
-  filter: invert(40%);
+  filter: invert(60%);
 }
 
 @media screen and (min-width: 600px) and (max-width: 960px) {

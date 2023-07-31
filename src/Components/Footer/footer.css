@@ -9,7 +9,6 @@ footer {
 .copyright {
   display: flex;
   justify-content: space-around;
-  border-top: 1px solid #fef0f5;
 }
 
 .footer-icon {
