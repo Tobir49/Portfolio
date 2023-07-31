@@ -55,3 +55,41 @@ nav {
 .cv-text:hover {
   color: #090e21;
 }
+
+@media screen and(min-width:660px) and (max-width: 1010px) {
+  .div-cv {
+    border-radius: 20px;
+    padding: 2px 3px 0px 10px;
+  }
+
+  .icon-cv {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .div-nav {
+    margin-left: -1em;
+  }
+
+  .div-cv {
+    border-radius: 20px;
+    padding: 2px 3px 0px 10px;
+  }
+
+  .li-nav {
+    font-size: 15px;
+  }
+
+  .div-cv {
+    padding: 4px 3px 0px 10px;
+  }
+
+  .cv-text {
+    font-size: 15px;
+  }
+
+  .icon-cv {
+    font-size: 14px;
+  }
+}
