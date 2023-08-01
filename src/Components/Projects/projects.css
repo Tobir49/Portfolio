@@ -154,21 +154,20 @@
   /*Projets*/
   .one-project {
     width: 95%;
-    margin-top: 2em;
+    margin: 0em 0em 2em 0em;
+    flex-direction: column;
+    align-items: center;
   }
 
   /*Images*/
   .one-project .techno-project {
-    margin-right: 20%;
-    margin-left: 1.5em;
-    width: 30%;
-    height: 300px;
+    display: none;
   }
 
   .one-project .img-project {
-    margin-left: -50%;
-    width: 30%;
-    height: 300px;
+    margin: 5em 0em 0em 1em;
+    width: 100px;
+    height: 200px;
   }
 
   .li-skills-project {
@@ -183,7 +182,7 @@
   /*Texte*/
   .text-project {
     margin-left: 0em;
-    width: 70%;
+    width: 95%;
     font-size: 12px;
   }
 }
