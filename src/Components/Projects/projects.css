@@ -167,7 +167,8 @@
   .one-project .img-project {
     margin: 5em 0em 0em 1em;
     width: 100px;
-    height: 200px;
+    min-height: 150px;
+    max-height: 150px;
   }
 
   .li-skills-project {
