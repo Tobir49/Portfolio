@@ -28,7 +28,7 @@ function Nav() {
         </ul>
         <div className="div-cv">
           <a
-            href="src/_CV.pdf"
+            href="/_CV.pdf"
             download="CV_RIBOT_Baptiste.pdf"
             className="cv-text"
           >
