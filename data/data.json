@@ -6,7 +6,7 @@
       "fa-brands fa-css3-alt"
 		],
     "skills": [],
-    "imagePath":"../../../images/P2.png",
+    "imagePath":"/P2.png",
     "alt":"Projet HTML et CSS",
     "gitHubIcon":"fa-brands fa-github",
     "href":"https://github.com/Tobir49/OpenClassrooms_Site_HTML_CSS",
@@ -22,7 +22,7 @@
         "fa-brands fa-css3-alt"
       ],
       "skills": [],
-      "imagePath":"../../../images/P3.png",
+      "imagePath":"/P3.png",
       "alt":"Projet JavaScript",
       "title" : "Sophie Bluel",
       "gitHubIcon":"fa-brands fa-github",
@@ -39,7 +39,7 @@
         "Gestion de projet",
         "User Stories"
       ],
-      "imagePath":"../../../images/P4.png",
+      "imagePath":"/P4.png",
       "alt":"Gestion de projet",
       "title" : "Gestion du développement d'un site",
       "gitHubIcon":" ",
@@ -55,7 +55,7 @@
         "fa-brands fa-html5"
       ],
       "skills": [],
-      "imagePath":"../../../images/P5.png",
+      "imagePath":"/P5.png",
       "alt":"Projet débug et optimisation",
       "title" : "Debug & optimisation d’un site",
       "gitHubIcon":"fa-brands fa-github",
@@ -73,7 +73,7 @@
         "fa-brands fa-css3-alt"
       ],
       "skills": [],
-      "imagePath":"../../../images/P6.png",
+      "imagePath":"/P6.png",
       "alt":"Projet React",
       "gitHubIcon":"fa-brands fa-github",
       "href":"https://github.com/Tobir49/Projet_6_Kasa",
@@ -90,7 +90,7 @@
         "fa-solid fa-database"
       ],
       "skills": [],
-      "imagePath":"../../../images/P7.png",
+      "imagePath":"/P7.png",
       "alt":"Projet Back-End",
       "gitHubIcon":"fa-brands fa-github",
       "href":"https://github.com/Tobir49/P7_Mon_Vieux_Grimoire",
