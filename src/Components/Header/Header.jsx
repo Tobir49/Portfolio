@@ -8,7 +8,7 @@ function Header() {
         <h2 className="h2-header white basic">💻 Développeur Web 💻</h2>
       </div>
       <a href="#projects" className="a-header yellow">
-        projets
+        Projets
       </a>
     </header>
   );

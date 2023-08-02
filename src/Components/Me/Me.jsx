@@ -55,9 +55,9 @@ function Me() {
           <p className="blue center">
             Amateur de <span className="blue bold">lecture</span>, je suis
             surtout tourné vers les
-            <span className="blue bold"> mangas</span>. Les collectionner sont
-            ma plus grande passion (plus de 700 actuellement). J’aime partager
-            ce hobby en créant du contenu divertissant sur diverses plateformes.
+            <span className="blue bold"> mangas</span>. Les collectionner est ma
+            plus grande passion (plus de 700 actuellement). J’aime partager ce
+            hobby en créant du contenu divertissant sur diverses plateformes.
           </p>
           <p className="blue center">
             En plus de mes autres passions, j’adore me
