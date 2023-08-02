@@ -9,16 +9,6 @@ function Projects() {
 
   return (
     <article id="projects" className="z-index">
-      <div className="filter-by column align-items">
-        <h2 className="white bold title-filter">Filtrer par</h2>
-        <div className="div-filter-buttons">
-          <button className="button-filter yellow">Tous</button>
-          <button className="button-filter yellow">Sites web</button>
-          <button className="button-filter yellow">Agilité</button>
-          <button className="button-filter yellow">Debug / Optimisation</button>
-        </div>
-      </div>
-
       {data.map((project) => (
         <OneProject
           key={project.id}

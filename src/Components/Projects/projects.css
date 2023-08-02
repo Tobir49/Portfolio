@@ -4,42 +4,10 @@
   padding-bottom: 5em;
 }
 
-/*Filter*/
-.title-filter {
-  border-bottom: 1px solid #fff6bb;
-  padding-bottom: 2px;
-}
-
-.filter-by {
-  display: flex;
-  padding-top: 4em;
-}
-
-.div-filter-buttons {
-  display: flex;
-  margin-left: 3vw;
-}
-
-.button-filter {
-  font-size: 20px;
-  background-color: #090e21;
-  border: 1px solid #fff6bb;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: all, 0.6s;
-  padding: 7px 25px 7px 25px;
-  margin-right: 3vw;
-}
-
-.button-filter:hover {
-  color: #090e21;
-  background-color: #fff6bb;
-}
-
 /*Div d'un projet*/
 .one-project {
   display: flex;
-  margin-top: 5em;
+  padding-top: 5em;
 }
 
 /*Images*/
@@ -98,15 +66,10 @@
 }
 
 @media screen and (min-width: 660px) and (max-width: 960px) {
-  /*Filter*/
-  .button-filter {
-    font-size: 2vw;
-  }
-
   /*Projets*/
   .one-project {
     width: 90%;
-    margin-top: 3em;
+    padding-top: 3em;
   }
 
   /*Images*/
@@ -139,18 +102,6 @@
 }
 
 @media screen and (max-width: 660px) {
-  /*Filter*/
-  .div-filter-buttons {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 80%;
-  }
-
-  .button-filter {
-    font-size: 3vw;
-    margin-bottom: 1em;
-  }
-
   /*Projets*/
   .one-project {
     width: 95%;
