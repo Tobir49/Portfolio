@@ -10,9 +10,8 @@ function Me() {
           <h2 className="blue border">BIO</h2>
           <p className="blue center">
             Jeune <span className="blue bold">développeur</span> de 19 ans,
-            ayant découvert ce domaine fin 2022, à la suite d'une
-            <span className="blue bold"> reconversion </span>
-            professionnelle.
+            ayant découvert ce domaine fin 2022, à la suite d'un
+            <span className="blue bold"> changement d'orientation</span>.
           </p>
           <p className="blue center">
             J'ai suivi une formation de
@@ -26,7 +25,7 @@ function Me() {
             Finalement, cette formation m'aura aussi permis d'acquérir des soft
             skills comme l'<span className="blue bold">autonomie</span> et de la{" "}
             <span className="blue bold">flexibilité.</span> Hormis ceux-ci, j'ai
-            un bon <span className="blue bold">esprit</span> et{" "}
+            un bon <span className="blue bold">esprit</span> et une bonne{" "}
             <span className="blue bold">gestion d'équipe</span>, suis{" "}
             <span className="blue bold">sociable</span> et je{" "}
             <span className="blue bold">communique </span>
