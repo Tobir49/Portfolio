@@ -5,7 +5,7 @@ function Contact() {
     <article id="contact" className="contact z-index column justify">
       <div className="div-one-contact">
         <i className="fa-solid fa-location-dot blue contact-icon"></i>
-        <p className="blue contact-text">1, rue Pierre Nion. Trélazé 49800</p>
+        <p className="blue contact-text">Trélazé 49800</p>
       </div>
 
       <div className="div-one-contact">
