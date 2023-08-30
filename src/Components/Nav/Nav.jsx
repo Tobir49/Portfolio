@@ -6,22 +6,22 @@ function Nav() {
       <div className="div-nav">
         <ul className="ul-nav">
           <li>
-            <a href="#me" className="li-nav yellow">
+            <a href="#me" className="li-nav li-info">
               Infos
             </a>
           </li>
           <li>
-            <a href="#projects" className="li-nav yellow">
+            <a href="#projects" className="li-nav">
               Projets
             </a>
           </li>
           <li>
-            <a href="#skills" className="li-nav yellow">
+            <a href="#skills" className="li-nav">
               Compétences
             </a>
           </li>
           <li>
-            <a href="#contact" className="li-nav yellow">
+            <a href="#contact" className="li-nav">
               Contact
             </a>
           </li>

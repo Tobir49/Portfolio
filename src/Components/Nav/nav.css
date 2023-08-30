@@ -1,13 +1,11 @@
 nav {
   position: fixed;
-  background-color: #090e21;
+  /* background-color: #090e21; */
   width: 100%;
   left: 0;
   top: 0;
-  /* backdrop-filter: blur(10px); */
+  backdrop-filter: blur(10px);
   z-index: 1;
-  /* padding-bottom: 1em; */
-  box-shadow: 1px 0px 5px #fff6bb;
 }
 
 .div-nav {
@@ -21,26 +19,30 @@ nav {
 
 .li-nav {
   margin-right: 3vw;
+  color: #fef0f5;
+  background-color: rgba(9, 14, 33, 0.3);
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .li-nav:hover {
-  border-bottom: 1px solid #fff6bb;
-  padding-bottom: 5px;
+  background-color: rgba(254, 240, 245, 0.6);
+  color: #090e21;
   transition: all 0.6s;
 }
 
 .div-cv {
   display: flex;
   justify-content: space-around;
-  border: 1px solid #fff6bb;
-  border-radius: 15px;
-  padding: 2px 2px 0px 10px;
-  margin: 0.5em 3vw 0.5em 0em;
+  margin: 0.2em 3vw 0.5em 0em;
   transition: all, 0.4s;
 }
 
 .cv-text {
-  color: #fff6bb;
+  color: #fef0f5;
+  background-color: rgba(9, 14, 33, 0.3);
+  padding: 2px 5px 3px 10px;
+  border-radius: 20px;
   transition: all, 0.4s;
 }
 
@@ -48,11 +50,8 @@ nav {
   font-size: 18px;
 }
 
-.div-cv:hover {
-  background-color: #fff6bb;
-}
-
 .cv-text:hover {
+  background-color: rgba(254, 240, 245, 0.6);
   color: #090e21;
 }
 
@@ -67,40 +66,16 @@ nav {
   }
 }
 
-@media screen and (min-width: 410px) and (max-width: 660px) {
+@media screen and (max-width: 660px) {
+  .li-info {
+    display: none;
+  }
+
   .div-nav {
-    margin-left: -1em;
+    margin-left: -2em;
   }
 
   .div-cv {
-    border-radius: 20px;
-    padding: 2px 3px 0px 10px;
-  }
-
-  .li-nav {
-    font-size: 15px;
-  }
-
-  .div-cv {
-    padding: 4px 3px 0px 10px;
-  }
-
-  .cv-text {
-    font-size: 15px;
-  }
-
-  .icon-cv {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .div-nav {
-    margin-left: -1.5em;
-  }
-
-  .div-cv {
-    border-radius: 20px;
     padding: 2px 3px 0px 10px;
   }
 
@@ -109,7 +84,7 @@ nav {
   }
 
   .div-cv {
-    padding: 1px 3px 1px 7px;
+    padding: 4px 3px 0px 10px;
     align-self: center;
   }
 
@@ -119,5 +94,18 @@ nav {
 
   .icon-cv {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .li-nav {
+    margin-right: 1.2vw;
+    padding: 6px;
+  }
+
+  .div-cv {
+    padding: 0px 2px 0px 6px;
+    align-self: center;
+    margin-top: 0.6em;
   }
 }
