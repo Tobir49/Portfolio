@@ -1,5 +1,6 @@
 footer {
-  background-color: #090e21;
+  background-color: #f5f0fe;
+  margin: -0.5em;
 }
 
 .a-footer {
@@ -13,11 +14,16 @@ footer {
 
 .footer-icon {
   font-size: 18px;
+  background-color: #f5f0fe;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all, 0.4s;
 }
 
 .footer-icon:hover {
-  color: #fff6bb;
-  transition: all, 0.4s;
+  background-color: #090e21;
+  border-radius: 10px;
+  color: #f5f0fe;
 }
 
 @media screen and (max-width: 450px) {

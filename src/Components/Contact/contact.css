@@ -1,5 +1,8 @@
 #contact {
-  background-color: #f5f0fe;
+  background-color: #090e21;
+  border: 1px solid #f5f0fe;
+  border-radius: 5em;
+  margin-bottom: 3em;
 }
 
 .div-one-contact {
@@ -10,8 +13,8 @@
 .contact {
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 10vw;
-  height: 15em;
+  padding-left: 18vw;
+  height: 12em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -25,8 +28,34 @@
   font-size: 1em;
 }
 
-@media screen and (max-width: 660px) {
+.contact-a {
+  background-color: #090e21;
+  color: #f5f0fe;
+  padding: 5px;
+  border-radius: 25px;
+  width: 20vw;
+  transition: all, 0.6s;
+}
+
+.contact-a:hover {
+  background-color: #f5f0fe;
+  color: #090e21;
+}
+
+@media screen and (max-width: 1000px) {
   .contact {
+    padding-left: 12vw;
+    height: 10em;
+  }
+
+  .contact-text,
+  .contact-a {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  /* .contact {
     flex-wrap: nowrap;
     margin-left: -3em;
     height: auto;
@@ -41,5 +70,24 @@
   .contact-a,
   .contact-icon {
     font-size: 14px;
+  } */
+
+  .contact {
+    padding-left: 0;
+    height: auto;
+    flex-wrap: nowrap;
+  }
+
+  .div-one-contact {
+    margin-left: 10vw;
+  }
+
+  .contact-text,
+  .contact-a {
+    font-size: 0.8em;
+  }
+
+  .contact-a {
+    width: 50vw;
   }
 }
