@@ -30,7 +30,7 @@ main {
 
 @media screen and (max-width: 660px) {
   main {
-    margin-top: 250px;
+    margin-top: 60px;
     padding-bottom: 8em;
     flex-direction: column;
   }
@@ -44,5 +44,6 @@ main {
 
   .text-main {
     margin: 0em 1em 0em 1em;
+    font-size: 15px;
   }
 }

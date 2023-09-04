@@ -107,6 +107,7 @@
   /*Projets*/
   .one-project {
     width: 95%;
+    padding-bottom: 1em;
     margin: 0em 0em -5em 0em;
     flex-direction: column;
     align-items: center;
