@@ -55,22 +55,9 @@
 }
 
 @media screen and (max-width: 660px) {
-  /* .contact {
-    flex-wrap: nowrap;
-    margin-left: -3em;
-    height: auto;
-    align-items: center;
+  #contact {
+    border-radius: 1em;
   }
-
-  .contact-icon {
-    align-self: center;
-  }
-
-  .contact-text,
-  .contact-a,
-  .contact-icon {
-    font-size: 14px;
-  } */
 
   .contact {
     padding-left: 0;

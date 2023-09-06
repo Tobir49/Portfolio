@@ -23,8 +23,9 @@
 }
 
 .techno-project:hover {
-  background-color: rgba(210, 210, 210, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
+  cursor: pointer;
 }
 
 .one-project {
@@ -52,13 +53,21 @@
 }
 
 .icon-project {
-  transition: all, 0.7s;
   font-size: 35px;
 }
 
+.icon-github {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+  transition: all, 0.3s;
+  border-radius: 5px;
+}
+
 .icon-github:hover {
-  transition: all, 0.4s;
-  color: rgba(180, 183, 153, 0.8);
+  transition: all, 0.3s;
+  color: #222425;
+  background-color: #fef0f5;
+  border-radius: 15px;
 }
 
 /*Texte*/
@@ -105,10 +114,13 @@
 
 @media screen and (max-width: 660px) {
   /*Projets*/
+  .all-projects {
+    margin-top: -3em;
+  }
+
   .one-project {
     width: 95%;
-    padding-bottom: 1em;
-    margin: 0em 0em -5em 0em;
+    margin: 0em;
     flex-direction: column;
     align-items: center;
   }
@@ -119,10 +131,12 @@
   }
 
   .one-project .img-project {
-    margin: 5em 0em 0em 1em;
-    width: 100px;
-    min-height: 150px;
-    max-height: 150px;
+    margin: 0em;
+    padding-bottom: 1em;
+    width: 120px;
+    min-height: 170px;
+    max-height: 170px;
+    border-radius: 5px;
   }
 
   .li-skills-project {
@@ -136,8 +150,12 @@
 
   /*Texte*/
   .text-project {
-    margin-left: 0em;
-    width: 95%;
+    margin-left: 1em;
+    width: 92%;
     font-size: 12px;
+  }
+
+  .date {
+    display: none;
   }
 }

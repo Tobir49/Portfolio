@@ -31,7 +31,7 @@ function Me() {
             <span className="white bold">communique </span>
             facilement et agréablement. Pour plus de détails sur mes skills,
             cliquez{" "}
-            <a href="#skills" className="white border bold">
+            <a href="#skills" className="yellow border bold">
               ici
             </a>
             .
@@ -39,11 +39,11 @@ function Me() {
           <p className="white center">
             Si vous souhaitez en savoir plus sur moi je vous invite à découvrir
             les{" "}
-            <a href="#projects" className="white border bold">
+            <a href="#projects" className="yellow border bold">
               projets
             </a>{" "}
             que j'ai menés, ou bien à me{" "}
-            <a href="#contact" className="white border bold">
+            <a href="#contact" className="yellow border bold">
               contacter
             </a>{" "}
             !
