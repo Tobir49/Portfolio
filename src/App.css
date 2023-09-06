@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #090e21;
+  background-color: #222425;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -38,7 +38,7 @@ a {
 }
 
 .blue {
-  color: #090e21;
+  color: #222425;
 }
 
 i {
@@ -60,5 +60,5 @@ i {
 }
 
 .border {
-  border-bottom: 1px solid #090e21;
+  border-bottom: 1px solid #f5f0fe;
 }

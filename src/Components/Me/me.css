@@ -1,8 +1,8 @@
 main {
   display: flex;
-  background: linear-gradient(to bottom, #f5f0fe, #f5f0fe 70%, #090e21 100%);
+  background-color: #222425;
   padding-bottom: 6em;
-  margin-top: 700px;
+  margin-top: 200px;
 }
 
 .text-main {

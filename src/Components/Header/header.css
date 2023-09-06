@@ -1,12 +1,7 @@
 header {
   display: flex;
-  height: 700px;
-  position: fixed;
-  top: 0;
-  left: 37%;
-  z-index: -1;
-  /* width: 100%;
-  background-image: url("../../../images/IMG_3376.webp"); */
+  height: 300px;
+  margin-top: 10em;
 }
 
 h1 {
@@ -22,7 +17,7 @@ h1 {
 
 .a-header {
   font-size: 1.5vw;
-  background-color: #090e21;
+  background-color: #222425;
   border: 1px solid #fff6bb;
   padding: 1vw 5vw 1vw 5vw;
   border-radius: 2em;
@@ -33,7 +28,7 @@ h1 {
 
 .a-header:hover {
   font-size: 1.7vw;
-  color: #090e21;
+  color: #222425;
   background-color: #fff6bb;
 }
 
